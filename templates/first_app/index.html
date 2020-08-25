@@ -1,11 +1,13 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
   <head>
     <meta charset="utf-8">
-    <title>First App</title>
+    <title>Roller Coaster Page</title>
+    <link rel="styleshet" href= "{% static 'css/mystyle.css' %}" />
   </head>
   <body>
-    <h1>Hello this is index.html</h1>
-    {{ insert_me }}
+    <h1>Hello this is a great day</h1>
+    <img src="{% static 'images/dwood.jpg' %}" alt="Going down the coaster with my boy!">
   </body>
 </html>
