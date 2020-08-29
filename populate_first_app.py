@@ -4,10 +4,11 @@ import os
 from faker import Faker
 import django
 
-from first_app.models import AccessRecord, WebPage, Topic
-
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'first_project.settings')
 django.setup()
+
+from first_app.models import AccessRecord, WebPage, Topic
+
 
 
 # Fake pop script
